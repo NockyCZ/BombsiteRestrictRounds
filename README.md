@@ -1,4 +1,4 @@
-# BombsiteRestricRounds
+# Bombsite Restric Rounds
 
 ### Installation
 1. Download files
