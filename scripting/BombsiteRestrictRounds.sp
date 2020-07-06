@@ -14,7 +14,7 @@ ConVar BombsiteInterval, BombsiteMessage, BombsitePrefix, BombsiteMinPlayers;
 
 public Plugin myinfo = 
 {
-	name = "Bombsite Restric Rounds", 
+	name = "Bombsite Restrict Rounds", 
 	author = "Nocky", 
 	description = "", 
 	version = "1.0", 
@@ -31,8 +31,8 @@ public void OnPluginStart()
 	HookEvent("round_start", Event_RoundStart);
 	HookEvent("round_end", Event_RoundEnd);
 	
-	AutoExecConfig(true, "Bombsite_Restric_Rounds");
-	LoadTranslations("Bombsite_Restric_Rounds.phrases");
+	AutoExecConfig(true, "Bombsite_Restrict_Rounds");
+	LoadTranslations("Bombsite_Restrict_Rounds.phrases");
 }
 
 public void OnMapStart()
