@@ -111,7 +111,6 @@ void RandomBombiste(int site)
 					if (GetClientTeam(i) == CS_TEAM_T)
 					{
 						CPrintToChat(i, "%s %t", PREFIX, "BSiteChat");
-						
 					}
 				}
 			}
