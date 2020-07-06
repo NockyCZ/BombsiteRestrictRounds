@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"ASiteAllChat"
+	{
+		"en"        "This round is plant only on {red}B{default}!"
+	}
+	"ASiteChat"
+	{
+		"en"        "This round you can plant bomb only on {red}B{default}!"
+	}
+	"BSiteAllChat"
+	{
+		"en"        "This round is plant only on {red}A{default}!"
+	}
+	"BSiteChat"
+	{
+		"en"        "This round you can plant bomb only on {red}A{default}!"
+	}
+}
