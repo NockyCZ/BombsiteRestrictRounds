@@ -1,6 +1,6 @@
 # BombsiteRestricRounds
 
-// Bombsite Restric Rounds interval
+`// Bombsite Restric Rounds interval
 // -
 // Default: "5"
 sm_bsr_interval "5"
@@ -18,6 +18,6 @@ sm_bsr_minplayers "4"
 // Prefix before chat messages
 // -
 // Default: "{green}[Bombsite]{default}"
-sm_bsr_prefix "{green}[Bombsite]{default}"
+sm_bsr_prefix "{green}[Bombsite]{default}"`
 
 
