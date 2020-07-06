@@ -24,8 +24,8 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
 	BombsiteMinPlayers = CreateConVar("sm_bsr_minplayers", "4", "Minimum players to enable this plugin");
-	BombsiteInterval = CreateConVar("sm_bsr_interval", "5", "Bombsite Restric Rounds interval");
-	BombsiteMessage = CreateConVar("sm_bsr_message", "1", "Show information about restric plants | 1 = Both teams | 0 = Only Terrorist");
+	BombsiteInterval = CreateConVar("sm_bsr_interval", "6", "Bombsite Restric Rounds interval");
+	BombsiteMessage = CreateConVar("sm_bsr_message", "0", "Show information about restric plants | 1 = Both teams | 0 = Only Terrorist");
 	BombsitePrefix = CreateConVar("sm_bsr_prefix", "{green}[Bombsite]{default}", "Prefix before chat messages");
 	
 	HookEvent("round_start", Event_RoundStart);
