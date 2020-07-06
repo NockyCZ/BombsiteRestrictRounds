@@ -7,7 +7,7 @@
 4. Restart your server
 5. Edit config in /csgo/cfg/sourcemod/Bombsite_Restrict_Rounds.cfg
 
-### Convars
+### Cvars
 ```
 // Bombsite Restric Rounds interval
 // -
