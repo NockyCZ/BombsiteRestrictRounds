@@ -11,13 +11,13 @@
 ```
 // Bombsite Restric Rounds interval
 // -
-// Default: "5"
-sm_bsr_interval "5"
+// Default: "6"
+sm_bsr_interval "6"
 
 // Show information about restric plants | 1 = Both teams | 0 = Only Terrorist
 // -
-// Default: "1"
-sm_bsr_message "1"
+// Default: "0"
+sm_bsr_message "0"
 
 // Minimum players to enable this plugin
 // -
