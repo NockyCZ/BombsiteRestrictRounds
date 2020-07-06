@@ -1,5 +1,13 @@
 # BombsiteRestricRounds
 
+### Installation
+1. Download files
+2. Put the BombsiteRestricRounds.smx file into your servers \addons\sourcemod\plugins\
+3. Put the BombsiteRestricRounds.phrases.txt file into your servers \addons\sourcemod\translations\
+4. Restart your server
+5. Edit config in /csgo/cfg/sourcemod/Bombsite_Restric_Rounds.cfg
+
+### Convars
 ```
 // Bombsite Restric Rounds interval
 // -
