@@ -63,7 +63,7 @@ public void Event_RoundStart(Event event, const char[] name, bool dontBroadcast)
 			RandomBombiste(random);
 		}
 	}
-	PrintToChatAll("%d", Round);
+	//PrintToChatAll("%d", Round);
 }
 
 void RandomBombiste(int site)
