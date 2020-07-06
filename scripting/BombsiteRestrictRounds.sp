@@ -60,13 +60,13 @@ public void Event_RoundStart(Event event, const char[] name, bool dontBroadcast)
 	{
 		if (Round == BombsiteInterval.IntValue)
 		{
-			SetRandomBombsite(random);
+			SetBombsite(random);
 		}
 	}
 	//PrintToChatAll("%d", Round);
 }
 
-void SetRandomBombsite(int site)
+void SetBombsite(int site)
 {
 	char PREFIX[256];
 	BombsitePrefix.GetString(PREFIX, sizeof(PREFIX));
