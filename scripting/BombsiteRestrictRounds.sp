@@ -6,6 +6,8 @@
 #pragma semicolon 1
 #pragma newdecls required
 
+bool MinClients = false;
+
 int Round = 0;
 int g_BombsiteA = -1;
 int g_BombsiteB = -1;
@@ -38,6 +40,7 @@ public void OnPluginStart()
 public void OnMapStart()
 {
 	Round = 0;
+	MinClients = false;
 }
 
 public void Event_RoundEnd(Event event, const char[] name, bool dontBroadcast)
@@ -57,6 +60,15 @@ public void Event_RoundStart(Event event, const char[] name, bool dontBroadcast)
 	int random = GetRandomInt(0, 1);
 	int maxclients = GetClientCount(true);
 	if (maxclients > BombsiteMinPlayers.IntValue)
+	{
+		MinClients = true;
+	}
+	else
+	{
+		MinClients = false;
+		Round = 0;
+	}
+	if (MinClients)
 	{
 		if (Round == BombsiteInterval.IntValue)
 		{
@@ -86,9 +98,7 @@ void SetBombsite(int site)
 				for (int i = 1; i <= MaxClients; i++)
 				{
 					if (IsValidClient(i))
-						continue;
-					
-					if (GetClientTeam(i) == CS_TEAM_T)
+						if (GetClientTeam(i) == CS_TEAM_T)
 					{
 						CPrintToChat(i, "%s %t", PREFIX, "ASiteChat");
 					}
@@ -107,8 +117,7 @@ void SetBombsite(int site)
 				for (int i = 1; i <= MaxClients; i++)
 				{
 					if (IsValidClient(i))
-						continue;
-					if (GetClientTeam(i) == CS_TEAM_T)
+						if (GetClientTeam(i) == CS_TEAM_T)
 					{
 						CPrintToChat(i, "%s %t", PREFIX, "BSiteChat");
 					}
