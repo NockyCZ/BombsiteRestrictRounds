@@ -19,13 +19,13 @@
 		"en"        "This round is plant only on {red}A{default}!"
 		"tr"		"Bu turda sadece {red}A bölgesine {default}bomba kurabilirsin!"
 		"cze"        "Tohle kolo se může položit bomba pouze na {red}A{default}!"
-		"pl"        "W tej rundzie można plantować tylko na {red}B{default}!"
+		"pl"        "W tej rundzie można plantować tylko na {red}A{default}!"
 	}
 	"BSiteChat"
 	{
 		"en"        "This round you can plant bomb only on {red}A{default}!"
 		"tr"		"Bu turda sadece {red}A bölgesine {default}bomba kurabilirsin!"
 		"cze"        "Tohle kolo můžeš položit bombu pouze na {red}A{default}!"
-		"pl"        "W tej rundzie możesz plantować  bombę tylko na {red}B{default}!"
+		"pl"        "W tej rundzie możesz plantować  bombę tylko na {red}A{default}!"
 	}
 }
