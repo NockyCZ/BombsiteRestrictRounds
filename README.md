@@ -1,5 +1,7 @@
 # Bombsite Restrict Rounds
 
+https://forums.alliedmods.net/showthread.php?t=325788
+
 ### Installation
 1. Download files
 2. Put the BombsiteRestrictRounds.smx file into your servers \addons\sourcemod\plugins\
